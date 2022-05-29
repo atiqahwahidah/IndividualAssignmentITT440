@@ -41,5 +41,6 @@ puts("recv FAILED");
 }
 puts("Reply received\n");
 puts(server_reply);
+close(socket_desc);
 return 0;
 }

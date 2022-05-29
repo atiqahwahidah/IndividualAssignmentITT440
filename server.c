@@ -15,7 +15,7 @@ long valread;
 struct sockaddr_in address;
 int addrlen=sizeof(address);
 
-char *me="HTTP/1.1 200 OK\nCOntent-Type: text/plain\nContent-Length: 53\n\n Hi assalamualaik>
+char *me="HTTP/1.1 200 OK\nContent-Type: text/plain\nContent-Length: 53\n\n Hi assalamualaikum.Nama saya Nur Atiqah Wahida.#UiTMdiHatiku";
 
 if ((socket_desc = socket(AF_INET, SOCK_STREAM,0))==0)
 {
